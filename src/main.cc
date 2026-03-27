@@ -28,7 +28,7 @@ int GenerateCodeFromAST(AST* ast_tree, std::string out_file_path);
 void ResetCompilationTimer();
 double GetCompilationDurationMs();
 void print_help() {
-    cout << "usage: pascc [-i inputfile] [-o outputfile] [-d debuglevel] [-h|--help]" << endl;
+    cout << "usage: P2C-Transpiler [-i inputfile] [-o outputfile] [-d debuglevel] [-h|--help]" << endl;
     cout << "optional arguments:" << endl;
     cout << " -h, --help      show help message" << endl;
     cout << " -i, --input     input pascal-s file (default: test.pas)" << endl;
